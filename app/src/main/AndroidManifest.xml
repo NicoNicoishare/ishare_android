@@ -26,6 +26,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.yang.iShare.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.Register2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.LoginActivity"
+            android:screenOrientation="portrait" />
         <activity android:name="com.example.yang.iShare.ChatClientActivity"></activity>
     </application>
 
