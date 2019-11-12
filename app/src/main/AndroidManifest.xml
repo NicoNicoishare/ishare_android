@@ -33,9 +33,23 @@
             android:name="com.example.yang.iShare.Register2Activity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.example.yang.iShare.ConcernActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.FollowActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.UserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.LikeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.CollectActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.example.yang.iShare.LoginActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.example.yang.iShare.ChatClientActivity"></activity>
     </application>
 
 </manifest>
