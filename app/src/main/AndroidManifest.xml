@@ -33,6 +33,18 @@
             android:name="com.example.yang.iShare.Register2Activity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.example.yang.iShare.ForgetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.Forget2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.ChangeCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.ReviseActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.example.yang.iShare.ConcernActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -42,7 +54,13 @@
             android:name="com.example.yang.iShare.UserActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.example.yang.iShare.CommentActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.example.yang.iShare.LikeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.yang.iShare.DetailActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.example.yang.iShare.CollectActivity"
@@ -50,6 +68,7 @@
         <activity
             android:name="com.example.yang.iShare.LoginActivity"
             android:screenOrientation="portrait" />
+        <activity android:name="com.example.yang.iShare.ChatClientActivity"></activity>
     </application>
 
 </manifest>
