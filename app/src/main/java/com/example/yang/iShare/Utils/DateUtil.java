@@ -1,10 +1,10 @@
-import android.annotation.SuppressLint;
-import android.util.Log;
+package com.example.yang.iShare.Utils;
 
-import java.text.DateFormat;
+
+import android.annotation.SuppressLint;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.sql.Timestamp;
 
 /**
  * Created by ouyangshen on 2016/9/24.

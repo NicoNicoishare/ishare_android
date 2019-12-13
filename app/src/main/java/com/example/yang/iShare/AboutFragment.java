@@ -48,8 +48,46 @@ public class AboutFragment extends Fragment {
         list_title.add("已关注");
         list_title.add("你");
 
+        vp.setAdapter(new MyPagerAdapter(getChildFragmentManager()));;
+        tabLayout.setupWithViewPager(vp);
         return view;
     }
 
-    
+    public class MyPagerAdapter extends FragmentPagerAdapter {
+
+        public MyPagerAdapter(FragmentManager fm) {
+            super(fm);
+        }
+
+        private final String[] titles = { "已关注", "你"};
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return titles[position];
+        }
+
+        @Override
+        public int getCount() {
+            return titles.length;
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            switch (position) {
+                case 0:
+                    if (aboutFollowFragment == null) {
+                        aboutFollowFragment = new AboutFollowFragment();
+                    }
+                    return aboutFollowFragment;
+                case 1:
+                    if (aboutMeFragment == null) {
+                        aboutMeFragment = new AboutMeFragment();
+                    }
+                    return aboutMeFragment;
+                default:
+                    return null;
+            }
+        }
+
+    }
 }

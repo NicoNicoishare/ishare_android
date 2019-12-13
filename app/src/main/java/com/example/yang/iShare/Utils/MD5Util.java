@@ -1,4 +1,4 @@
-import android.util.Log;
+package com.example.yang.iShare.Utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
